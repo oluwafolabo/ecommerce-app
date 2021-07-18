@@ -1,0 +1,81 @@
+@media (max-width:720px){
+    .nav{
+        display: none;
+     
+    }
+    .navbar{
+        display: inline-block;
+    }
+   
+    nav > img{
+        position: absolute;
+    }
+}  
+.navbar{
+    display: none;
+    float: right;
+    margin-right: 40px;
+    margin-top: -50px;
+}
+.navbar > .no1{
+    border-radius: 50px;
+    width: 40px;
+    height: 3px;
+    background-color: rgb(146, 146, 146);
+    position: absolute;
+    margin-top: 90px;
+}
+.navbar > .no2{
+    border-radius: 50px;
+    width: 35px;
+    height: 3px;
+    margin-left: 5px;
+    background-color: rgb(146, 146, 146);
+    position: absolute;
+    margin-top:95px;
+}
+.navbar > .no3{
+    border-radius: 50px;
+    width: 30px;
+    height: 3px;
+    margin-left: 10px;
+    background-color: rgb(146, 146, 146);
+    position: absolute;
+    margin-top: 100px;
+}
+
+.app .logo{
+    position: absolute;
+   width: 100px;
+   height: 100px;
+   margin-left:6.93%;
+   margin-top: -0.5%;
+}
+nav .nav a{
+    font-weight: 500;
+    text-decoration: none;
+    padding: 10px;
+    color: black;
+    font-family: Poppins;
+    margin-left: 30px
+  
+}
+nav{
+    padding: 20px;
+    border-bottom: 0.3px solid rgba(146, 146, 146, 0.171);
+}
+.cart{
+    position: absolute;
+    margin-left: 10px;
+    
+}
+nav .nav{
+    
+    margin-right: 160px;
+    margin-top: 1.99%;
+    float: right;
+}
+.app{
+    display: flex;
+    flex-direction: column;
+}
